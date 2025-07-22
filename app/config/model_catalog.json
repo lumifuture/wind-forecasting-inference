@@ -1,0 +1,39 @@
+{
+  "wind_forecast": {
+    "ultra_short_term": {
+      "lstm": {
+        "v1.0": {
+          "farm": "models/wind/ultra_short_term/lstm/v1.0/farm/model.pth",
+          "turbines": {
+            "T1": "models/wind/ultra_short_term/lstm/v1.0/turbines/T1/model.pth"
+          },
+          "shared_turbine_model": "models/wind/ultra_short_term/lstm/v1.0/turbines/model.pth"
+        }
+      }
+    },
+    "short_term": {
+      "cnn_lstm": {
+        "v1.0": {
+          "farm": "models/wind/short_term/cnn_lstm/v1.0/farm/model.pt",
+          "turbines": {
+            "T1": "models/wind/short_term/cnn_lstm/v1.0/turbines/T1/model.pt",
+            "T2": "models/wind/short_term/cnn_lstm/v1.0/turbines/T2/model.pt",
+            "T3": "models/wind/short_term/cnn_lstm/v1.0/turbines/T3/model.pt"
+          }
+        }
+      }
+    },
+    "medium_term": {
+      "transformer": {
+        "v1.0": {
+          "farm": "models/wind/short_term/transformer/v1.0/farm/model.pt",
+          "turbines": {
+            "T1": "models/wind/short_term/transformer/v1.0/turbines/T1/model.pt",
+            "T2": "models/wind/short_term/transformer/v1.0/turbines/T2/model.pt",
+            "T3": "models/wind/short_term/transformer/v1.0/turbines/T3/model.pt"
+          }
+        }
+      }
+    }
+  }
+}

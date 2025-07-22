@@ -1,0 +1,8 @@
+uvicorn[standard]
+fastapi
+numpy
+pandas
+scikit-learn
+torch
+# Editable install with no version control (wind-models==0.1.0)
+-e ../wind-forecasting-models/
